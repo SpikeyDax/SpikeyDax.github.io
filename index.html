@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dat Thai | Electrical Engineering Portfolio</title>
+    <meta name="description" content="Portfolio of Dat Thai, Electrical Engineering student at Seattle Pacific University focusing on power and energy systems.">
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <nav class="nav container">
+            <a href="#top" class="brand">
+                <img src="assets/logo.svg" alt="" width="36" height="36">
+                <span>Dat Thai</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div class="container hero-inner">
+                <p class="eyebrow">Electrical Engineering · Power &amp; Energy Systems</p>
+                <h1>Dat Thai</h1>
+                <p class="lead">Senior Electrical Engineering student at Seattle Pacific University. I design, build, and test circuits, from power regulation and protection to PCB layout.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-light" href="#projects">View projects</a>
+                    <a class="btn btn-outline" href="mailto:thaid@spu.edu">Email me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-grid">
+                    <article class="card project">
+                        <img src="assets/wall-e-power.jpg" alt="Wall-E robot power wiring with relay module and breadboard" loading="lazy">
+                        <div class="card-body">
+                            <span class="tag">Team · Junior Design</span>
+                            <h3>Wall-E Warehouse Robot: Power Management</h3>
+                            <p>Led the power subsystem for an autonomous warehouse robot: LiPo battery, charger, voltage sensing, fuse, motor power switch, and relay circuit. Built an energy load table to size the battery and fuse, and captured the full power schematic in Altium Designer.</p>
+                        </div>
+                    </article>
+                    <article class="card project">
+                        <img src="assets/power-supply-pcb.jpg" alt="Dual adjustable power supply PCB under test with a multimeter" loading="lazy">
+                        <div class="card-body">
+                            <span class="tag">Individual</span>
+                            <h3>Dual Adjustable Power Supply PCB</h3>
+                            <p>A two-channel adjustable power supply on a 100 × 100 mm board, taken from schematic capture through PCB layout in Altium Designer, then revised to fix design-for-manufacturing issues flagged by a fab house.</p>
+                        </div>
+                    </article>
+                    <article class="card project">
+                        <img src="assets/peak-detector.jpg" alt="Breadboarded peak detector circuit with op-amps and an LM339 comparator" loading="lazy">
+                        <div class="card-body">
+                            <span class="tag">Individual</span>
+                            <h3>Peak Detector Circuit</h3>
+                            <p>An op-amp peak detector with an LM339 comparator that lights an LED when the signal crosses a reference threshold. Tested and debugged from 10 kHz to 25 kHz.</p>
+                        </div>
+                    </article>
+                    <article class="card project">
+                        <img src="assets/pico-projects.jpg" alt="Raspberry Pi Pico on an expansion board" loading="lazy">
+                        <div class="card-body">
+                            <span class="tag">Individual</span>
+                            <h3>Raspberry Pi Pico Embedded Projects</h3>
+                            <p>Eight MicroPython projects simulated in Wokwi and run on hardware: GPIO interrupts, PWM servo control, shift registers driven from ISRs, SPI LCD output, and file I/O on flash.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section section-tint">
+            <div class="container two-col">
+                <div>
+                    <h2 class="section-title">Education</h2>
+                    <div class="card info">
+                        <h3>Seattle Pacific University</h3>
+                        <p class="meta">B.S. Electrical Engineering · Expected June 2027</p>
+                        <p>Power and energy systems track. Transferred from Cascadia College (A.S. in Computer Engineering) with the SPU Transfer Merit Scholarship.</p>
+                        <p class="small">Coursework: Electronics I, PCB Design, Microcontroller System Design, Circuits, Computer Architecture, Electromagnetism, Junior and Senior Design.</p>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="section-title">Experience</h2>
+                    <div class="card info">
+                        <ul class="timeline">
+                            <li>
+                                <h3>Facilities Student Worker</h3>
+                                <p class="meta">Seattle Pacific University · Current</p>
+                            </li>
+                            <li>
+                                <h3>Building Manager &amp; AV Technician</h3>
+                                <p class="meta">University of Washington Bothell</p>
+                            </li>
+                            <li>
+                                <h3>Mathematics Tutor</h3>
+                                <p class="meta">Cascadia College</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <ul class="chips">
+                    <li>Altium Designer</li>
+                    <li>PCB Layout &amp; DFM</li>
+                    <li>LTspice</li>
+                    <li>MicroPython (Raspberry Pi Pico)</li>
+                    <li>MATLAB</li>
+                    <li>MIPS Assembly</li>
+                    <li>Oscilloscope</li>
+                    <li>Breadboarding</li>
+                    <li>Power Budgeting</li>
+                </ul>
+                <div class="cert">
+                    <img src="assets/cert-badge.svg" alt="Certification badge">
+                    <div>
+                        <h3>MathWorks Certified MATLAB Associate</h3>
+                        <p class="meta">Issued by MathWorks · November 2026</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-inner">
+            <div>
+                <h2>Let's connect</h2>
+                <p>Questions about a project, or want to work together? Reach out.</p>
+            </div>
+            <div class="footer-links">
+                <a class="btn btn-light" href="mailto:thaid@spu.edu">thaid@spu.edu</a>
+                <a class="icon-link" href="https://www.linkedin.com/in/dat-thai-29b829250/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <img src="assets/In-White-40@2x.png" alt="">
+                </a>
+                <a class="icon-link" href="https://github.com/SpikeyDax" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <img src="assets/github-mark-white.png" alt="">
+                </a>
+            </div>
+        </div>
+        <p class="copyright">© 2026 Dat Thai</p>
+    </footer>
+</body>
+</html>
