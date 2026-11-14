@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F8EEF0"/><stop offset="1" stop-color="#EBD3D9"/></linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5B8DB8"/><stop offset="1" stop-color="#3E6E99"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#sky)"/>
+  <!-- mountains + trees -->
+  <path d="M0 230 L110 120 L190 190 L290 90 L400 200 L470 150 L640 240 L640 400 L0 400 Z" fill="#C98A9A" opacity="0.45"/>
+  <g fill="#5C0F22" opacity="0.85">
+    <path d="M40 260 l18 -50 l18 50 z"/><path d="M70 262 l14 -38 l14 38 z"/>
+    <path d="M560 255 l18 -52 l18 52 z"/><path d="M592 258 l14 -40 l14 40 z"/>
+  </g>
+  <!-- ground -->
+  <rect x="0" y="255" width="640" height="145" fill="#E2C7CE"/>
+  <!-- stream -->
+  <path d="M0 300 C120 280 200 330 320 305 C440 280 520 320 640 300 L640 360 C520 380 440 340 320 365 C200 390 120 340 0 360 Z" fill="url(#water)"/>
+  <g stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7">
+    <path d="M40 325 q20 -8 40 0"/><path d="M120 340 q20 -8 40 0"/><path d="M420 330 q20 -8 40 0"/><path d="M520 345 q20 -8 40 0"/>
+  </g>
+  <!-- turbine -->
+  <g transform="translate(260 318)">
+    <rect x="-4" y="-90" width="8" height="70" fill="#3D0814"/>
+    <circle r="34" fill="none" stroke="#7A1F35" stroke-width="6"/>
+    <g fill="#A3324E">
+      <path d="M0 0 L0 -32 L12 -26 Z"/><path d="M0 0 L32 0 L26 12 Z"/>
+      <path d="M0 0 L0 32 L-12 26 Z"/><path d="M0 0 L-32 0 L-26 -12 Z"/>
+    </g>
+    <circle r="8" fill="#C9A15B"/>
+  </g>
+  <!-- generator box -->
+  <rect x="236" y="196" width="48" height="36" rx="6" fill="#3D0814"/>
+  <path d="M256 204 l-6 12 h8 l-4 10 l12 -15 h-8 l4 -7 z" fill="#C9A15B"/>
+  <!-- cable -->
+  <path d="M284 214 C340 214 360 250 410 250" stroke="#3D0814" stroke-width="4" fill="none"/>
+  <!-- cooler -->
+  <g transform="translate(410 200)">
+    <rect x="0" y="0" width="150" height="90" rx="10" fill="#7A1F35"/>
+    <rect x="-6" y="-14" width="162" height="22" rx="8" fill="#5C0F22"/>
+    <rect x="55" y="-22" width="40" height="10" rx="4" fill="#3D0814"/>
+    <!-- snowflake -->
+    <g stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" transform="translate(75 48)">
+      <path d="M0 -22 V22"/><path d="M-19 -11 L19 11"/><path d="M-19 11 L19 -11"/>
+    </g>
+  </g>
+</svg>
